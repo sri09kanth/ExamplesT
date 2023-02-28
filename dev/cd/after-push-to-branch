@@ -31,6 +31,6 @@ echo "GIT_REVISION is ${GIT_REVISION}"
 export IMAGE_TAG="g${GIT_REVISION
 echo "IMAGE_TAG is ${IMAGE_T
 
-pushd ${REPO
+pushd ${RE
 VERSION=${IMAGE_TAG} REGISTRY=$
 popd
