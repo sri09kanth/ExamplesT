@@ -25,7 +25,7 @@ fi
 
 BRANCH=${GIT_REF/refs\/heads\//}
 echo "BRANCH is ${BRANCH}
-GIT_REVISION=$(git rev-parse --short HEAD)
+GIT_REVISION=$(git rev-parse --short HEA
 echo "GIT_REVISION is ${GIT_REVISION}"
 
 export IMAGE_TAG="g${GIT_REVISION
