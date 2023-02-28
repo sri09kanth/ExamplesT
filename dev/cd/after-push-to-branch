@@ -20,7 +20,7 @@ fi
 
 if [[ ! "${GIT_REF}" =~ ^refs/heads/.* ]]; then
   echo "GIT_REF=${GIT_REF} is not of the expected format refs/heads/*"
-  exit 1
+  exit
 fi
 
 BRANCH=${GIT_REF/refs\/heads\//}
