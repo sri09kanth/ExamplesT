@@ -24,8 +24,7 @@ if [[ ! "${GIT_REF}" =~ ^refs/heads/.* ]]; then
 fi
 
 BRANCH=${GIT_REF/refs\/heads\//}
-echo "BRANCH is ${BRANCH}"
-
+echo "BRANCH is ${BRANCH}
 GIT_REVISION=$(git rev-parse --short HEAD)
 echo "GIT_REVISION is ${GIT_REVISION}"
 
