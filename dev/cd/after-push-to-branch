@@ -14,7 +14,7 @@ if [ -z "${GIT_REF:-}" ]; then
 fi
 
 if [[ -z "${REGISTRY_BASE:-}" ]]; then
-  echo "REGISTRY_BASE must be set"
+  echo "REGISTRY_BASE must be se
   exit 1
 fi
 
